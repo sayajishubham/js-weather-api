@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.location:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.location .name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.location .temp {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.location .condition {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.location .wind {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.location .humidity {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.location .feelslike {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.location .visibility {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.location .uv {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.location .gust {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   margin-left: 45%;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
